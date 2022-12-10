@@ -5,7 +5,7 @@
 /**
  * main - Prints the alphabet in lowercase
  *
- * Result: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -17,5 +17,5 @@ int main(void)
 		putchar(alp[i]);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
