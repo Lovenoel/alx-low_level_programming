@@ -10,19 +10,22 @@
  */
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	char c;
 
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	while (CH <= 'Z')
-	{
-		putchar(ch);
-		ch++;
-	}	
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
-}	
+}
