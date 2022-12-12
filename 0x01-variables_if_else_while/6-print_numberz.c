@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-	int a;
+	int b;
 
-	a = 0;
+	b = 0;
 	while
-	       	(a < 10) {
-			putchar('a');
-			a++;
+		(b < 10) {
+			putchar(b + '0');
+			b++;
 		}
 	putchar('\n');
 	return (0);
