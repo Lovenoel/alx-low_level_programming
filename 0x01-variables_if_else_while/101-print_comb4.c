@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - 
+ * main - Prints all possible different combinations of three digits
  *
  * Return: Always 0 (success)
  */
@@ -20,7 +20,7 @@ int main(void)
 			for (ones = '0'; ones <= '9'; ones++)
 			{
 				if (!((ones == tens) || (tens == hundreds) ||
-							(tens > ones) || (hundreds >tens)))/*eliminates repitition*/
+							(tens > ones) || (hundreds > tens)))/*eliminates repitition*/
 				{
 					putchar(hundreds);
 					putchar(tens);
