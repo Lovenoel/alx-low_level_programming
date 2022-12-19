@@ -7,7 +7,8 @@
  * @dest: the destination
  * @src: the copy
  * Return: the copy
- */char *_strcpy(char *dest, char *src)
+ */
+char *_strcpy(char *dest, char *src)
 {
 	char *start = dest;
 
