@@ -7,12 +7,11 @@
  */
 void print_triangle(int size)
 {
-	int i;
-	int ii;
 
+	int i = 1;
 	while (i <= size && size > 0)
 	{
-		ii = 0;
+		int ii = 0;
 		while (ii < size - i)
 		{
 			_putchar(' ');
