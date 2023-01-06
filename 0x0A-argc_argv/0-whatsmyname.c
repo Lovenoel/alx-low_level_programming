@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - prints the name of function
- * @argc: count the arguments
- * @argv: the arguments
+ * @argc: unused parameter
+ * @argv: the array of the command listed
  * Return: always 0 on success
  */
-int main(int argc, char *argv[0])
+int main(int argc, char *argv[])
 {
-	(void) argv;
-	printf("%s\n", argv[0]);
+	(void) argc;
+	printf("%s\n", *argv);
 
 	return (0);
 }
