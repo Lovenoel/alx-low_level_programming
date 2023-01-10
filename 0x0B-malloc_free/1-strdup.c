@@ -33,11 +33,10 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (i = 0; i < len; str[i])
+	for (i = 0; i < len; i++)
 	{
 		nstr[i] = str[i];
 	}
 	nstr[len] = '\0';
 	return (nstr);
-}
 }
