@@ -14,7 +14,7 @@ char **strtow(char *str)
 
 	while (*(str + len))
 		len++;
-	words = wordnos(str);
+	words = words(str);
 	if (words == 0)
 		return (NULL);
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
